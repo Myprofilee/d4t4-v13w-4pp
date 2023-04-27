@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+
+    <!-- Global CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="/assets/vendors/bootstrap/bootstrap-select.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/vendors/bootstrap/jquery.bootstrap-touchspin.min.css">
+    <link rel="stylesheet" href="/assets/vendors/swiper/swiper-bundle.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body data-theme-color="color-primary" onload="startTime()">
+    <div class="page-wraper">
+
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="loader">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- Preloader end-->
+
+        <!-- Header -->
+        <header class="header">
+            <div class="main-bar">
+                <div class="container">
+                    <div class="header-content">
+                        <div class="left-content">
+                            <a href="javascript: history.go(-1)" class="back-btn">
+                                <i class="ri-arrow-left-s-line"></i>
+                            </a>
+                            <h5 class="title mb-0 text-nowrap">Live View</h5>
+                        </div>
+                        <div class="mid-content">
+                        </div>
+                        <div class="right-content">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Page Content -->
+        <div class="page-content">
+            <div class="container bottom-content shop-cart-wrapper">
+
+                <div class="footer fixed ">
+                    <div class="container">
+                        <div class="view-title mb-2">
+                            <ul>
+                                <li>
+                                    <h5>Total</h5>
+                                    <h5 id="andrep-home">Loading..</h5>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="promo-bx">
+                                        Real Time Date
+                                        <span id="time">2 Promos</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-btn d-flex align-items-center">
+                            <a href="https://andrep.my.id/" class="btn btn-primary flex-1">Open Page</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Content End-->
+
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+        <script src="/assets/firebase/andrep/home/firebase.min.js"></script>
+        <!-- Javascript -->
+        <script src="/assets/js/jquery.js"></script>
+        <script src="/assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="/assets/vendors/swiper/swiper-bundle.min.js"></script>
+        <script src="/assets/vendors/bootstrap/jquery.bootstrap-touchspin.min.js"></script>
+        <script src="/assets/js/dz.carousel.js"></script>
+        <script src="/assets/js/settings.js"></script>
+        <script src="/assets/js/custom.js"></script>
+        <script src="/assets/js/jquery.js"></script>
+        <script src="/assets/js/index.js"></script>
+
+        <script src="/assets/search/andrep/andrep.min.js"></script>
+
+        <script src="/assets/js/data/menubar/script.js"></script>
+        <script>
+            $(".stepper").TouchSpin();
+        </script>
+</body>
+
+</html>
